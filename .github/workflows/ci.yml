@@ -9,6 +9,8 @@ on:
     branches:
       - main
       - master
+env:
+  DEPLOY_BASE: /lms/
 
 jobs:
   ci:

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar>
+    <v-app-bar app>
       <v-app-bar-nav-icon class="d-md-none" @click.stop="drawer = !drawer" />
       <v-toolbar-title>
         <nuxt-link to="/">
@@ -31,7 +31,7 @@
         <v-list-item
           v-for="link in links"
           :key="link.name"
-          :to="link.key"
+          :to="link.path"
           nuxt
         >
           {{ link.name }}
@@ -48,11 +48,11 @@ export default {
       drawer: false,
       links: [
         {
-          link: '/posts',
+          path: '/posts',
           name: 'Posts'
         },
         {
-          link: '/machines/3d-printer',
+          path: '/machines',
           name: 'Machine'
         }
       ]

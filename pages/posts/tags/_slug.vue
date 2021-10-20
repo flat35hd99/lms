@@ -15,7 +15,7 @@ export default {
   },
   async asyncData ({ $content, params }) {
     const tag = params.slug
-    const contents = await $content('contents', { deep: true }).where({ tags: { $contains: tag } }).sortBy('date', 'desc').fetch()
+    const contents = await $content({ deep: true }).where({ tags: { $contains: tag } }).sortBy('date', 'desc').fetch()
     return {
       contents,
       tag

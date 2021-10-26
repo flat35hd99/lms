@@ -3,13 +3,11 @@
     <v-app-bar app>
       <v-app-bar-nav-icon class="d-md-none" @click.stop="drawer = !drawer" />
       <v-toolbar-title>
-        <nuxt-link to="/">
-          <v-img
-            src="favicon.ico"
-            height="20"
-            contain
-          />
-        </nuxt-link>
+        <v-img
+          src="SD_NULib_mini.png"
+          height="2rem"
+          contain
+        />
       </v-toolbar-title>
       <v-tabs class="d-none d-md-flex">
         <v-tab
@@ -47,6 +45,10 @@ export default {
     return {
       drawer: false,
       links: [
+        {
+          path: '/',
+          name: 'Home'
+        },
         {
           path: '/posts',
           name: 'Posts'

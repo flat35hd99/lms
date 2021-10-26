@@ -1,0 +1,23 @@
+<template>
+  <v-row>
+    <v-img
+      src="/posts/dummy1.jpg"
+    >
+      <v-container
+        no-gutters
+      >
+        <v-row
+          align="center"
+        >
+          <v-col>
+            <p
+              style="background-color:rgba(0, 0, 0, 0.5);"
+            >
+              すべての学生にモノづくりのキカイを
+            </p>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-img>
+  </v-row>
+</template>

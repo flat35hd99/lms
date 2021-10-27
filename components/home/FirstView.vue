@@ -1,14 +1,12 @@
 <template>
   <v-row>
     <v-img
-      src="/posts/dummy1.jpg"
+      src="posts/dummy1.jpg"
     >
       <v-container
         no-gutters
       >
-        <v-row
-          align="center"
-        >
+        <v-row>
           <v-col>
             <p
               style="background-color:rgba(0, 0, 0, 0.5);"

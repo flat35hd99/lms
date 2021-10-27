@@ -1,6 +1,9 @@
 <template>
   <div>
-    <v-app-bar app>
+    <v-app-bar
+      app
+      hide-on-scroll
+    >
       <v-app-bar-nav-icon class="d-md-none" @click.stop="drawer = !drawer" />
       <v-toolbar-title>
         <v-img
@@ -50,8 +53,12 @@ export default {
           name: 'Home'
         },
         {
+          path: '/projects/green-belt-diorama',
+          name: 'Project'
+        },
+        {
           path: '/posts',
-          name: 'Posts'
+          name: 'Post'
         },
         {
           path: '/machines',

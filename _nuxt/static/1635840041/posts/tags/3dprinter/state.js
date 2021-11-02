@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Flms\u002F_nuxt\u002Fstatic\u002F1635840041",layout:"default",error:a,serverRendered:true,routePath:"\u002Fposts\u002Ftags\u002F3dprinter",config:{_app:{basePath:"\u002Flms\u002F",assetsPath:"\u002Flms\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"89782c61"}}}}(null));

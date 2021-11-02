@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{471:function(e,t,n){"use strict";n.r(t);var r={head:function(){return{titleTemplate:"%s | tags | Library Maker Space"}}},l=n(59),component=Object(l.a)(r,(function(){var e=this.$createElement;return(this._self._c||e)("nuxt-child")}),[],!1,null,null,null);t.default=component.exports}}]);

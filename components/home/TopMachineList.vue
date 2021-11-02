@@ -27,7 +27,7 @@
             <v-col>
               <v-btn
                 icon
-                color="indigo"
+                color="primary"
                 :to="machine.path"
               >
                 <v-icon>mdi-chevron-right</v-icon>

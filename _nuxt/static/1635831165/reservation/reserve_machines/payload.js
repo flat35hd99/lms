@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/reservation/reserve_machines", {data:[{}],fetch:{},mutations:void 0});

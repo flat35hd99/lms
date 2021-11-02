@@ -63,6 +63,10 @@ export default {
         {
           path: '/machines',
           name: 'Machine'
+        },
+        {
+          path: '/reservation',
+          name: '利用申請'
         }
       ]
     }
